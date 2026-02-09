@@ -29,4 +29,19 @@ It demonstrates the use of **Object-Oriented Programming (OOP)** with classes su
   - Styled with CSS, including background images and centered forms.  
 
 ## Project Structure
-
+Hospital-Management/
+│
+├─ app.py # Main Flask application
+├─ Hospital.py # Hospital class
+├─ Department.py # Department class
+├─ Patient.py # Patient class
+├─ Staff.py # Staff class
+├─ Person.py
+├─ Main.py # check clasee
+├─ templates/ # HTML templates
+│ ├─ login.html
+│ ├─ dashboard.html
+├─ static/ # Static assets (CSS, images)
+│ ├─ style.css
+│ └─ hospital.jpg
+├─ README.md
