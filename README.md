@@ -32,22 +32,22 @@ It demonstrates the use of **Object-Oriented Programming (OOP)** with classes su
 
 ## Project Structure
 
-Hospital-Management/
-│
-├─ app.py
-├─ Hospital.py
-├─ Department.py
-├─ Patient.py
-├─ Staff.py
-├─ Person.py
-├─ Main.py
-├─ templates/
-│ ├─ login.html
-│ └─ dashboard.html
-├─ static/
-│ ├─ style.css
-│ └─ hospital.jpg
-└─ README.md
+    Hospital-Management/
+    │
+    ├─ app.py
+    ├─ Hospital.py
+    ├─ Department.py
+    ├─ Patient.py
+    ├─ Staff.py
+    ├─ Person.py
+    ├─ Main.py
+    ├─ templates/
+    │ ├─ login.html
+    │ └─ dashboard.html
+    ├─ static/
+    │ ├─ style.css
+    │ └─ hospital.jpg
+    └─ README.md
 
 
 ---
@@ -81,12 +81,9 @@ Hospital-Management/
    ```bash
    python App.py
 
-5. **Login with:**
-   
-    Username: admin
-    Password: 123 
-
-
+5. **Login with:**  
+  - Username: admin  
+  - Password: 123 
 
 
 
