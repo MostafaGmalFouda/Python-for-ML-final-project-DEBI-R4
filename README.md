@@ -28,7 +28,10 @@ It demonstrates the use of **Object-Oriented Programming (OOP)** with classes su
   - All operations are done from a single dashboard.  
   - Styled with CSS, including background images and centered forms.  
 
+---
+
 ## Project Structure
+
 Hospital-Management/
 │
 ├─ app.py
@@ -36,11 +39,54 @@ Hospital-Management/
 ├─ Department.py
 ├─ Patient.py
 ├─ Staff.py
+├─ Person.py
+├─ Main.py
 ├─ templates/
-│   ├─ login.html
-│   ├─ dashboard.html
+│ ├─ login.html
+│ └─ dashboard.html
 ├─ static/
-│   ├─ style.css
-│   └─ hospital.jpg
-├─ README.md
+│ ├─ style.css
+│ └─ hospital.jpg
+└─ README.md
+
+
+---
+
+## Technologies Used
+- **Python 3**
+- **Flask** (Web framework)
+- **HTML / CSS** (Frontend)
+- **OOP Principles** (Classes & methods)
+
+---
+
+## How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repo_url>
+   cd Hospital-Management
+   
+2. **Create a virtual environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate # Linux/Mac
+   
+3. **Install dependencies:**
+   ```bash
+   pip install flask
+
+4. **Run the application:**
+   ```bash
+   python App.py
+
+5. **Login with:**
+   
+    Username: admin
+    Password: 123 
+
+
+
+
 
